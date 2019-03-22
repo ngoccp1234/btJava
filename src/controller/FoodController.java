@@ -27,7 +27,7 @@ public  class FoodController {
 
     }
      public void printList(){
-         System.out.printf("%15s | %15s | %15s | %15s | %15s\n", "Mã mon an", "Tên mon an", "mo ta mon an", "gia mon an","ngay tao");
+         System.out.printf("%15s | %15s | %15s | %15s | %15s\n", "Mã món ăn", "Tên món ăn", "Mô tả", "Giá","Ngày tạo");
          for (int i = 0; i < foodArrayList.size(); i++) {
              Food food = foodArrayList.get(i);
              System.out.printf("%15s | %15s | %15s | %15s | %15s\n",

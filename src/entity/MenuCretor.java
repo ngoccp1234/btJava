@@ -27,14 +27,19 @@ public  class MenuCretor   {
                         foodController.printList();
                         break;
                     case 3:
-                        System.out.println("Hẹn gặp lại!");
+                        System.out.println("Đã thoát");
                         break;
                     default:
                         System.out.println("Lựa chọn sai, vui lòng nhập từ 1 - 3 .");
                         break;
                 }
-
+                if (choice==3){
+                    System.out.println("Hẹn gặp lại!");
+                    break;
+                }
             }
+
+
 
         }
 }
